@@ -1,0 +1,15 @@
+# node_modules はビルド時には不要（Docker内で再インストールするため）
+node_modules
+npm-debug.log
+pnpm-debug.log
+
+# OS やエディタによる一時ファイル
+.DS_Store
+*.swp
+
+# Git 関連
+.git
+.gitignore
+
+# テストや開発用の設定ファイル（必要に応じて）
+.env
